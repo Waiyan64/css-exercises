@@ -7,6 +7,39 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-links {
+  display: flex;
+  gap: 10px;
+}
+
+.right-links {
+   display: flex;
+   gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+   
+}
+
+.footer {
+  background-color: lightgray;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
 img {
   width: 600px;
 }
